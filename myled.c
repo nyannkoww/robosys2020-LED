@@ -6,7 +6,7 @@
 #include<linux/io.h>
 #include<linux/delay.h>
 
-MODULE_AUTHOR("Koki Washio");
+MODULE_AUTHOR("Koki Washio + ueda");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
