@@ -14,14 +14,13 @@ pinコードはGPIO25とGNDを使用しています。
 1. リポジトリをクローンしてローカルリポジトリの作成
    ```
    $ git clone https://github.com/nyannkoww/robosys2020-LED.git
-   $ cd myled/robosys2020-LED
+   $ cd myled
    ```
 2. コンパイル、インストール
    ```
    $ make
    $ sudo insmod myled.ko
-   $ sudo ichmod /dev/myled0
-   $ sudo mknod /dev/myled c 507 0
+   $ sudo mknod /dev/myled0 c 507 0
    $ sudo chmod 666 /dev/myled0
    ```
 3. スイッチオン
